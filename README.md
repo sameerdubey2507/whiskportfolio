@@ -1,39 +1,64 @@
-Next-Gen Landing Page | Portfolio
-A high-fidelity, single-page landing ecosystem designed to showcase my trajectory as a Java Full-Stack Developer. This project is a pure demonstration of rapid, high-performance web development utilizing advanced AI orchestration.
+SAMEER DUBEY | NEXT-GEN PORTFOLIO LANDING PAGE
+==============================================
 
-Built with Flow & Whisk
+PROJECT OVERVIEW
+----------------
+A high-fidelity, single-page landing ecosystem designed to showcase a professional 
+trajectory in Java Full-Stack development. This project serves as a live 
+demonstration of rapid, high-performance web development utilizing advanced 
+AI orchestration.
+
+BUILT WITH FLOW & WHISK
+-----------------------
 This landing page was architected and deployed using an agentic development workflow:
 
-Whisk: Used for context-aware component generation and maintaining the cyber-neon design system across the page.
+* WHISK: Utilized for deep-context code generation and maintaining a consistent 
+  cyber-neon design system across all components.
+* FLOW: Leveraged for seamless execution of the development lifecycle, allowing 
+  for real-time iterations and instant feedback loops.
 
-Flow: Used for the seamless execution of the development lifecycle, allowing for real-time iterations and instant feedback loops.
+TECHNICAL STACK
+---------------
+* Frontend: Next.js / React
+* Styling: Tailwind CSS (Custom Glassmorphism Config)
+* Animations: GSAP, Framer Motion
+* Workflow Tools: Flow, Whisk, Git
 
-Design & Aesthetics
-Glassmorphism UI: Utilizing blurred backdrops and frosted glass surfaces for a premium feel.
+CORE FEATURES
+-------------
+* Cyber-Neon Aesthetics: High-contrast, futuristic visuals tailored for a modern 
+  developer identity.
+* Glassmorphism UI: Premium frosted-glass effects and interactive backdrop filters.
+* Agent-Optimized Codebase: Highly modular structure designed to maximize the 
+  efficiency of AI coding agents.
+* Responsive Design: Fluid layouts optimized for high-resolution displays and 
+  mobile devices.
 
-Cyber-Neon Theme: High-contrast visuals tailored for a futuristic developer aesthetic.
+PORTFOLIO HIGHLIGHTS
+--------------------
+* Professional Summary: Java Full-Stack Developer & Competitive Programmer.
+* Project Spotlights: Quick insights into Meridian OS, Crisis OS, and CoachHub.
+* Skill Matrix: Breakdown of Java (Spring Boot, Microservices), AI/ML (YOLOv8), 
+  and Frontend expertise.
+* Achievements: Data-driven showcase of 450+ LeetCode and 100+ CodeChef solutions.
 
-Smooth Orchestration: Powered by GSAP and Framer Motion for scroll-triggered reveals and interactive hover states.
+DEVELOPMENT ENVIRONMENT
+-----------------------
+* Hardware: ASUS Vivobook
+* IDE/Agents: Cursor, Windsurf, Flow & Whisk
 
-Sections Included
-The Hero: A high-impact introduction to my profile and the AXIOM Trust Score concept.
+CERTIFICATIONS & CREDENTIALS
+----------------------------
+* Generative AI (Anthropic)
+* Data Analytics (Google)
+* UI Design (Deloitte)
+* Backend Development (Microsoft)
 
-Project Spotlight: Snapshots of Meridian OS, Crisis OS, and CoachHub.
+CONTACT & CONNECT
+-----------------
 
-Technical Matrix: A specialized skill section highlighting Java, Spring Boot, and AI/ML capabilities.
+* Location: Badlapur / Navi Mumbai, India
+* Professional Goal: Java Full-Stack Excellence
 
-Achievements: A data-driven look at my LeetCode and CodeChef milestones.
-
-Technical Stack
-Core: Next.js / React
-
-Styling: Tailwind CSS
-
-Animations: GSAP & Framer Motion
-
-Workflow: Flow + Whisk
-
-Deployment & Performance
-The codebase is optimized for sub-second loading and smooth 60fps animations. By leveraging Flow and Whisk, the transition from initial concept to a production-ready landing page was achieved with maximum efficiency and clean-code modularity.
-
-Designed by Sameer Dubey | Powered by Flow & Whisk
+-------------------------------------------------------------------------------
+Designed and Developed by Sameer Dubey | Powered by Flow & Whisk
