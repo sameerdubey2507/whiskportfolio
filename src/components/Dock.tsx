@@ -7,7 +7,7 @@ import {
   useTransform,
   MotionValue,
 } from "framer-motion";
-import { useRef } from "react";
+import React, { useRef } from "react";
 import Link from "next/link";
 
 // Icons (Using simple SVGs or lucid-react if available, but I'll use SVG here for zero-deps)
@@ -38,7 +38,15 @@ const Icons = {
   ),
 };
 
-const DOCK_ITEMS = [
+interface DockItem {
+  id: string;
+  icon: (props: any) => React.ReactNode;
+  label: string;
+  href: string;
+  external?: boolean;
+}
+
+const DOCK_ITEMS: DockItem[] = [
   { id: "home", icon: Icons.Home, label: "Home", href: "#home" },
   { id: "projects", icon: Icons.Code, label: "Projects", href: "#projects" },
   { id: "testimonials", icon: Icons.Star, label: "Testimonials", href: "#testimonials" },
@@ -69,7 +77,7 @@ function DockIcon({
   item,
 }: {
   mouseX: MotionValue;
-  item: (typeof DOCK_ITEMS)[0];
+  item: DockItem;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
